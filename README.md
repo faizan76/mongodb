@@ -39,6 +39,8 @@ name: 'd3'
 db.articles.find({})
 //also
 db.articles.find({}).pretty()
+//drop a collection
+db.articles.drop()
 
 //find specific docs
 db.articles.find({name: 'd2'})
